@@ -50,11 +50,11 @@ symbols = [
     'aa',  # long
     'uu',
     'ii',
-    '!', # edited by abdelmageed
-    '(',
-    ')',
-    '.',
-    ':',
-    ';',
-    '?'
+    '!',    # edited by abdelmageed
+    '(',    # edited by abdelmageed
+    ')',    # edited by abdelmageed
+    '.',    # edited by abdelmageed
+    ':',    # edited by abdelmageed
+    ';',    # edited by abdelmageed
+    '?'     # edited by abdelmageed
 ]
