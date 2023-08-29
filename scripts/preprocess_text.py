@@ -66,7 +66,7 @@ def num_to_arabic_letters(text):
 
 
 def infer_preprocess(input_text):
-    modified_line = input_text.replace(',', '')  # Remove commas from the line
+    modified_line = input_text.replace(',', '.')  # Remove commas from the line
     modified_line = modified_line.replace('،', '.')
     modified_line = modified_line.replace('-', ' ')
     modified_line = num_to_arabic_letters(modified_line)
