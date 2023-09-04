@@ -32,7 +32,7 @@ def process_text(bw_file_path , phonetics_file_path, splitter ):
         utterance = utterance.replace("a~", "~a") \
                             .replace("i~", "~i") \
                             .replace("u~", "~u") \
-                            .replace(" - ", " ")
+                            #.replace(" - ", " ")
 
         utterance_arab = text.buckwalter_to_arabic(utterance)
         utterance_phon = text.buckwalter_to_phonemes(utterance)
