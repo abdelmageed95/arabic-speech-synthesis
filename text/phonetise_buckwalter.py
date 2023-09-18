@@ -378,7 +378,7 @@ def process_utterance(utterance):
     phonemes = []
 
     for word in utterance:
-        if(word in ['-', 'sil']):
+        if(word in ['.', 'sil']):
             phonemes.append(['sil'])
             continue
 
